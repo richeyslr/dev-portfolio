@@ -1,0 +1,33 @@
+section {
+  height: 500px;
+  background-color: aqua;
+  border: solid black 1px;
+}
+
+.hero {
+  height: 100vh;
+  background-color: rgb(35, 7, 61);
+  color: aliceblue;
+  font-size: 40px;
+}
+
+footer {
+  height: 500px;
+  background-color: black;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-around;
+  font-size: 30px;
+}
+
+li {
+  width: 200px;
+}
