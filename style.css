@@ -1,17 +1,18 @@
 body {
-  font-family: 'Ubuntu', sans-serif;;
+  font-family: 'Ubuntu', sans-serif;
+  background-color: #1c3041;
 }
 
 section {
   height: 500px;
-  background-color: aqua;
-  border: solid black 1px;
+  background-color: #1c3041;
 }
+
 
 .hero {
   height: 100vh;
-  background-color: rgb(35, 7, 61);
-  color: aliceblue;
+  background-color: #1c3041;
+  color: #00ffff;
   font-size: 40px;
 }
 
@@ -23,6 +24,7 @@ footer {
 nav {
   display: flex;
   justify-content: space-between;
+  color: #00ffff;
 }
 
 ul {
@@ -38,16 +40,125 @@ li {
 
 h1 {
   font-size: 90px;
+  margin: 0px;
 }
 
-.hero-text{
+h2 {
+  font-size: 50px;
+}
+
+p {
+  margin: 0px;
+  font-weight: 300;
+  font-size: 30px;
+}
+
+.hero-text {
   margin-left: 80px;
+  margin-bottom: 200px;
+}
+
+.hero-area {
+  display: flex;
+  height: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.socials {
+  padding-bottom: 200px;
+}
+
+.social {
+  margin: 20px;
+}
+
+.sub-section {
+  display: flex;
+  justify-content: space-around;
+  padding: 80px;
+}
+
+.about-text{
+  margin-bottom: 20px;
+}
+
+.headshot {
+  width: 300px;
+  border-radius: 60px;
+  margin-left: 80px;
+}
+
+.headshot-container {
+  display: flex;
+  align-items: center;
+}
+
+.project-card {
+  width: 300px;
+  height: 600px;
+  box-shadow: 5px 5px 20px #00ffff;
+  margin: 10px;
+  border-radius: 60px;
+}
+
+.project-container {
+  display: flex;
+  justify-content: space-around;
 }
 
 .button {
   width: 200px;
-  height: 60px;
-  background-color: coral;
-  border-radius: 40px;
+  height: 55px;
+  border-radius: 30px;
+  background-color: #fbb1a4;
+  /* color: #ff0000; */
   text-align: center;
+  font-size: 30px;
+  font-weight: 600;
+  padding-top: 5px;
+  margin-top: 20px;
 }
+
+.button:hover {
+  background-color: cornflowerblue;
+}
+
+.button:active {
+  background-color: gray;
+  color: #808080;
+}
+
+.project-image {
+  margin-top: 25px;
+  width: 250px;
+  border-radius: 125px;
+}
+
+hr {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.project-link {
+  text-decoration: none;
+  color: #ff0000;
+  margin-left: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+
+#headshot {
+  height: 300px;
+  width: auto;
+}
+
+#logo {
+  height: 200px;
+  margin: 30px;
+}
+
